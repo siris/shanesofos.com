@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=UTF-8 />
+		<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9sLFxYsGtLLVW0AAAJGSURBVCjPZVBBTxNBGP1mOuyUAotYod0Q0whpYjC1RlFjVA7Eg3ABjQch0gNE0nBVNBoT418gJHLUGL15sBrbnmqCKAchVaNEIom4oVK63e1uVrG7nRkPSIX6jt/33ve990D8h2QyGY1GCSG9vb3z8/Occ855dQs17NXV1XA4DNvw+/26ru8UYNiNQqEwEov1nD0TG7kyNTVVLBaz2SxCqEogNQJK63X17b0x2+f7+vjlx0Bbi23bOwm1H6i38eKpfM+h7OH2pcETS80+SKXSACCEqBVsjfJ59Ys7MbsymsM3IpdyR06en5m5v7i4iBD6q6mm4Zybpjk0NLS2tuY4LmNCCJFIJCiliqKoqrrFwdXzCKHJyUlZloPBIGMVhISmaZ2dnZFIRNf1eDzuui5C6N8HVVVDoVC5XK4pOpVKAYAsy+l0elet4+Pxvv5+SZIsy2KMVVN1dx8HAMuy5ubmKpUK2bbEBrsXSsRftSeEAIQAwGNnABBGQgnuxRgD52zT+Gy9G+DZo4WMcnX0gmGYW/mEEIXc8ubrfV0KmhgA99ttwR3EXdP5cI56DABZAH/y/FNOunvt+i2MMQC8Sj2L0uGWRi/QZsCKaBsjAjiREHAfAEaALvcF3ue/59fXdcN48PDRmxcziWkv0A4AwR1TcEZ+l9GG3ffrR9pbZ+yptzxMW8g8nb45iwn11NGDoYCeWxYO1/kx3n5nv3waMcbsn5tFTTP1vHA0zG3a3NGqHCCElEqlorbBrBVJkhpau1oD7U1NDX8AsnB/O4YDYhwAAAAASUVORK5CYII=" />
+		<style type="text/css">
+		html{background-color:rgb(200,200,200);}
+		body{background:rgb(255,255,255);font:13pt sans-serif;padding:80px;border:solid rgb(255,200,0);border-radius:5px;}
+		header{padding-bottom:15px;}
+		footer{padding:15px 0px;text-align:center}
+		footer li{padding:0px 15px 0px 15px;display:inline;list-style:none;text-decoration:none;}
+		section{margin:20px;padding:10px;background-color:rgba(200,200,200,0.8);border-radius:10px;}
+		section:hover,section:focus{background-color:rgba(255,200,0,0.65);cursor:pointer;}
+		section li{margin-top:3px;margin-bottom:3px;}
+		h1{text-align:center;font:bold 24pt sans-serif;}
+		h2{text-align:left;font:bold 18pt sans-serif;}
+		h3{text-align:center;font:bold italic 16pt sans-serif;}
+		.vlink{margin-left:auto;margin-right:auto;display:inline-block;height:11px;width:70px;padding:2px 5px;text-align:center;}
+		#vcss3{
+			background:right bottom no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAABoVBMVEUAAAAFBQUXFxeZBQCZBgCbCAGbCQE8PDwAWpwBWpwCWptHR0cBW5wCW50DXJ0EXJ0EXZ0EXZ4GXp4KYKAKYaBOTk4NYqFQUFAPY6IPZKITZqMUZ6RVVVUVaKQXaaVZWVkaa6YcbKcgb6gjcapgYGAkcaolcqomc6sqdawrdq1mZmYtd61paWk0e7BsbGw0fLBtbW1vb285f7I6f7Jzc3NEhrZFhrdIiLhKirlNjLp/f39QjrtTkLxUkLxXkr5alL9dlsBel8Bkm8OPj49lm8NmnMNvosd0pcl5qMufn599q8x+rM2Crs+HsdCJs9GNtdOvr6+SuNWwsLCSudWUutWVu9aWu9aXvNeYvdeavdicv9m4uLigwtqyvcWjw9upx96ryN6syd+wzOCyzeDKysq30ePOzs691OX+y2W/1eTB1+fV1dXG2unI3OrJ3OrL3eva2trP4O3R4e3W5O/X5e/n5+fe6vLg6/Ps7Ozm7/Xo8Pbp8ffq8ffw8PDt8/jx9vnz9/r2+fz6+vr5+/37+/v7/P38/f79/v7+/v7+//////9nhmbuAAABP0lEQVQ4T63R1VMCURTH8dUXDwoWit2Kit3YCrbYrZjXGFuxW0AFf3+1W5SuD8B+H87e2dn5zJm7nEnlOBNUTQDLluEs3AIecoRuvbX1N9MAiygR7DEDLf3Aqn5uRt8Ka0xGXEJUoF3vhCXfg+52bCc6kH6B2bWIQJLBR90eiun8M2vJXTIAb7N0GeInHCcOThri4f80RBKImqErbZXtiO7mqcvtGg2AAsQ4+cSCnwppybchxsqn6iaaRipwaTOYsR8CMv+avqEUCfvFMx94QpXjDp1xmGcWk95cvzZkf4YCSFpKZn7wK5tOv4vogGfO6FDQvEF3yIUO5TSUwgIgevM8GDS4J6+xQusv/IuOsP9yqvSQwY0+YKcTFuNCZiMajndzq8MG5WTweRN4t+PVktb2hPuC2NKPKEEV40GV+wHR7qfOP39jNQAAAABJRU5ErkJggg==);
+			height:15px;width:80px;}
+		#vhtml5{
+			background:right bottom no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAABoVBMVEUAAAAFBQUXFxeZBQCZBgCbCAGbCQE8PDwAWpwBWpwCWptHR0cBW5wCW50DXJ0EXJ0EXZ0EXZ4GXp4KYKAKYaBOTk4NYqFQUFAPY6IPZKITZqMUZ6RVVVUVaKQXaaVZWVkaa6YcbKcgb6gjcapgYGAkcaolcqomc6sqdawrdq1mZmYtd61paWk0e7BsbGw0fLBtbW1vb285f7I6f7Jzc3NEhrZFhrdIiLhKirlNjLp/f39QjrtTkLxUkLxXkr5alL9dlsBel8Bkm8OPj49lm8NmnMNvosd0pcl5qMufn599q8x+rM2Crs+HsdCJs9GNtdOvr6+SuNWwsLCSudWUutWVu9aWu9aXvNeYvdeavdicv9m4uLigwtqyvcWjw9upx96ryN6syd+wzOCyzeDKysq30ePOzs691OX+y2W/1eTB1+fV1dXG2unI3OrJ3OrL3eva2trP4O3R4e3W5O/X5e/n5+fe6vLg6/Ps7Ozm7/Xo8Pbp8ffq8ffw8PDt8/jx9vnz9/r2+fz6+vr5+/37+/v7/P38/f79/v7+/v7+//////9nhmbuAAABS0lEQVQ4y62TV1MCQRCEV18cFUwo5qyomDNmBbOYs2JcQ5kVcxZQwf7VsncCJ/IiXNfU5vqqd2aXGVUWM0JVCWDpEhwFm8B9ttCNp6buegrgYUkCdpuA5j5gRTc7rWuBJSo9Jj4ioE3ngDnPja42bCXYkXaOmdWwgPQDfNDuoojOPjIXXcX98DTJyRAnmAjGmBhwueVizuQ+iBdLJANRPXipqbQe0u0cdbqcI0FAKRhnfiDngT2FNORziNGyydrxxuFyXFj1JuwpgJIZ2afS4R8gCX9xvhzimCrG7FrDkBezkPjqDOVQcWXumyqBpKEkf1HwmUUnX4W078Wc0oGgeUIDJW9+1+xX/pIDVQZ6ct0Y0LsmrrBMa8/ehfZ/VzmFK4HrvcB2B8yG+YwG1B/t5FRF9A6Bpw3gzYYXc2rrI+7yo0veIwSq+5dV1jfh8J7pBbdFXgAAAABJRU5ErkJggg==);
+			height:15px;width:80px;}
+		</style>
+		<title>Resume - Shane R. Sofos</title>
+	</head>
+	<body>
+	<header>
+		<h1>Shane R. Sofos
+		<br>Unix Systems Administrator</h1>
+	</header>
+	<section>
+		<h2>Objective</h2>			
+			<p>
+			My main objective is to effectively manage and constantly learn computer information systems while practicing my personal work philosophy of <b>FOPAAR:</b> <i>Focused, Organized, Patient, Adaptive, Aware and Respectful</i>.
+			I am always ready for change, adapt to new situations and strive for decisiveness in day to day tasks and key projects. When working on teams I welcome dynamic environments and look 
+			forward to growing with every opportunity.
+			</p>
+	</section>
+	<section>
+		<h2>Skill Set</h2>
+			<ul>
+			<li>4+ years Systems Administration and Desktop/User Support</li>
+			<li>6+ years GNU/Linux OS Usage</li>
+			<li>Strong inter-personal and communication skills</li>
+			<li>Excellent organizational skills</li>
+			<li>Acute analytical approach to technical problems</li>
+			<li>Fundamental understanding of Linux/Unix operating systems and applications</li>
+			<li>Good understanding of core networking principals</li>
+			<li>Expertise & experience in datacenter colocation setup and server installation.</li>
+			<li>Capable of writing useful system and user documentation.</li>
+			<li>Adept in BASH scripting</li>
+			</ul>
+	</section>
+	<section>
+	<h2>Previous Experience</h2>
+			<ul>
+			<li><b>Google, Inc.</b>
+			<br><i>Feb. 2011 - Present (8 months)</i>
+			<br><i>Unix Systems Administrator</i>
+				<ul>
+					<li> Converted the entire Slide Design Team to corporate Google hardware and software.</li>
+					<li> Implemented a multiplatform SSHFS software deployment for Slide Teams to securely access remote file systems.</li>
+					<li> Converted all Slide Team members to use SSH DSA key based authentication to access a bastion host.</li>
+					<li> Created a standard reproducible semi-automated account creation and management process for newly hired, exited and existing  Slide AU employees.</li>
+					<li> Authored procedural documentation on Slide AU user account management, playground creation, SSH usage and ethics guide, New Hires, Exits, and GPG.</li>
+					<li> Improved Slide AU account setup with multiple BASH scripts for LDAP auditing, developmental playground initialization and conversion, file encryption and Slide AU specific OS configurations installations.</li>
+					<li> Assisted the Slide AU Systems Operations with a major data center migration  and setup.</li>
+				</ul>		
+			<li><b>Slide AU/WorkForceLogic</b>
+			<br><i>Sept. 2010 - Feb. 2011 (6 months)</i>
+			<br><i>Systems Operations Admin</i>
+				<p>
+				Joined the Slide, Inc team in Google SFO as a temporary employee. Initially I assisted and supported the migration of Slide employees to Google hardware and software. 
+				Implemented SSH key-based authentication for all Slide employees connecting to corporate development servers, audited the corporate LDAP database and gitosis servers, started 
+				to help manage our engineering Linux development environments which included monitoring accessibility to our bastion host server, supporting remote teams in China and Europe, 
+				supervising new hires' initial setup and removal of exited employees, and writing BASH scripts.
+				</p>
+			<li><b>Slide, Inc.</b>
+			<br><i>July 2009 - Aug. 2010 (1 year 2 month)</i>
+			<br><i>Systems Operations Admin and Facilities Assistant</i>
+				<p>After returning to Slide, Inc. I started working on the Systems Operations team again with a heavy emphasis on Linux systems administration. I maintained, operated and repaired 
+				corporate Ubuntu Linux servers and services. Deployed FOSWiki, FreeGhost/FOG and Apple Netboot System Image Server to improve our desktop and laptop distribution. Administered the 
+				Mailman mailing lists, TWiki and Kwok Information servers. Daily participation in user support of over 100 local employees and multiple overseas offices using mixed operating systems environments.
+				In addition to my role on the Operations Team, I worked closely with Slide Facilities to help maintain, organize and improve our three office floors.
+				</p>
+			<li><b>Farm Store at Kellogg Ranch</b>
+			<br><i>Feb. 2009 - June 2009 (4 months)</i>
+			<br><i>Juicer</i>
+				<p>Created, packaged, managed and inventoried farm fresh orange juice.</p>
+			<li><b>Slide, Inc.</b>
+			<br><i>July 2007 - Sept. 2007 (3 months)</i>
+			<br><i>System Operations Intern</i>
+				<p>Slide, Inc, was a small web startup company with less than 50 employees in 2007. After starting my internship with the Systems Operations team, I constantly collaborated with Sys Ops 
+				team members to support all Slide employees' desktop and laptop computers, aided in the physical and virtual maintenance of corporate Linux servers, fixed or setup corporate network infrastructure. 
+				One of my major projects was to design and implement the company wiki with TWiki to help improve employee communication, productivity and sharing of project critical information.
+				</p>
+			<li><b>Cal Poly Pomona University Library</b>
+			<br><i>Oct. 2005 - June 2007 (1 year 9 months)</i>
+			<br><i>Student Systems Operations Admin</i>
+				<p>I worked in the Systems and IT department of the CPP University Library while in school. On a daily basis I supported all library employees from six different departments and maintained 
+				three computer labs consisting of over 100 computers running both the Windows and Apple operating systems. Many of my tasks involved responding to tickets in an efficient manner and effectively ensuring the functional integrity of computer labs. 
+				Also, I solved desktop software and user support problems for library employees everyday.
+				</p>
+			</ul>	
+	</section>
+	<section>
+		<h2>Education</h2>
+			<ul>
+			<li>August 2005 - June 2009: California State Polytechnic University, Pomona
+				<ul>
+				<li>Successfully completed 172.5 quarter units.</li>
+				<li>Studied Computer Science, Physical Sciences, and Food Science/Culinology.</li>
+				</ul>
+			</ul>
+	</section>
+	<section>
+		<h2>Interests</h2>
+			<ul>
+			<li>The Arts - Architecture, Drawing, Film, Gastronomy, Literature, Music, Philosophy, Video Games.</li>
+			<li>Free and Open Source Software, GNU/Linux OS - Specifically Funtoo/Gentoo Linux.</li>
+			<li>Gardening - Specifically seasonal home vegetable gardens.</li>
+			<li>Playing or watching soccer, snowboarding and ultimate frisbee.</li>
+			<li>Etymology and mythology.</li>
+			</ul>
+	</section>
+	<footer>
+			<ul>
+			<li>Email: <a href="mailto:ssofos@google.com">ssofos@google.com</a> + <a href="mailto:ssofos@gmail.com">ssofos@gmail.com</a></li>
+			<li>Cell: (650)-888-0189</li>
+			<li>Google Voice: (650)-733-6777</li>
+			<li>Website: <a href="http://www.shanesofos.com">www.shanesofos.com</a>
+			</ul>
+			<br>
+			<ul>
+			<li>Last Updated: 2011-11-23</li>
+			<li><a id="vcss3" class="vlink" href="http://jigsaw.w3.org/css-validator/" target="_blank"></a></li>
+			<li><a id="vhtml5" class="vlink" href="http://validator.w3.org/" target="_blank"></a></li>
+			</ul>
+	</footer>
+	</body>	
+</html>
