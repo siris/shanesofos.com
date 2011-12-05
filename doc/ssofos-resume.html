@@ -5,12 +5,12 @@
 		<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9sLFxYsGtLLVW0AAAJGSURBVCjPZVBBTxNBGP1mOuyUAotYod0Q0whpYjC1RlFjVA7Eg3ABjQch0gNE0nBVNBoT418gJHLUGL15sBrbnmqCKAchVaNEIom4oVK63e1uVrG7nRkPSIX6jt/33ve990D8h2QyGY1GCSG9vb3z8/Occ855dQs17NXV1XA4DNvw+/26ru8UYNiNQqEwEov1nD0TG7kyNTVVLBaz2SxCqEogNQJK63X17b0x2+f7+vjlx0Bbi23bOwm1H6i38eKpfM+h7OH2pcETS80+SKXSACCEqBVsjfJ59Ys7MbsymsM3IpdyR06en5m5v7i4iBD6q6mm4Zybpjk0NLS2tuY4LmNCCJFIJCiliqKoqrrFwdXzCKHJyUlZloPBIGMVhISmaZ2dnZFIRNf1eDzuui5C6N8HVVVDoVC5XK4pOpVKAYAsy+l0elet4+Pxvv5+SZIsy2KMVVN1dx8HAMuy5ubmKpUK2bbEBrsXSsRftSeEAIQAwGNnABBGQgnuxRgD52zT+Gy9G+DZo4WMcnX0gmGYW/mEEIXc8ubrfV0KmhgA99ttwR3EXdP5cI56DABZAH/y/FNOunvt+i2MMQC8Sj2L0uGWRi/QZsCKaBsjAjiREHAfAEaALvcF3ue/59fXdcN48PDRmxcziWkv0A4AwR1TcEZ+l9GG3ffrR9pbZ+yptzxMW8g8nb45iwn11NGDoYCeWxYO1/kx3n5nv3waMcbsn5tFTTP1vHA0zG3a3NGqHCCElEqlorbBrBVJkhpau1oD7U1NDX8AsnB/O4YDYhwAAAAASUVORK5CYII=" />
 		<style type="text/css">
 		html{background-color:rgb(200,200,200);}
-		body{background:rgb(255,255,255);font:13pt sans-serif;padding:80px;border:solid rgb(255,200,0);border-radius:5px;}
+		body{background:rgb(255,255,255);font:13pt sans-serif;padding:80px;border:solid rgb(173,255,47);border-radius:5px;}
 		header{padding-bottom:15px;}
 		footer{padding:15px 0px;text-align:center}
 		footer li{padding:0px 15px 0px 15px;display:inline;list-style:none;text-decoration:none;}
 		section{margin:20px;padding:10px;background-color:rgba(200,200,200,0.8);border-radius:10px;}
-		section:hover,section:focus{background-color:rgba(255,200,0,0.65);cursor:pointer;}
+		section:hover,section:focus{background-color:rgba(173,255,47,0.65);cursor:pointer;}
 		section li{margin-top:3px;margin-bottom:3px;}
 		h1{text-align:center;font:bold 24pt sans-serif;}
 		h2{text-align:left;font:bold 18pt sans-serif;}
@@ -23,7 +23,7 @@
 			background:right bottom no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAABoVBMVEUAAAAFBQUXFxeZBQCZBgCbCAGbCQE8PDwAWpwBWpwCWptHR0cBW5wCW50DXJ0EXJ0EXZ0EXZ4GXp4KYKAKYaBOTk4NYqFQUFAPY6IPZKITZqMUZ6RVVVUVaKQXaaVZWVkaa6YcbKcgb6gjcapgYGAkcaolcqomc6sqdawrdq1mZmYtd61paWk0e7BsbGw0fLBtbW1vb285f7I6f7Jzc3NEhrZFhrdIiLhKirlNjLp/f39QjrtTkLxUkLxXkr5alL9dlsBel8Bkm8OPj49lm8NmnMNvosd0pcl5qMufn599q8x+rM2Crs+HsdCJs9GNtdOvr6+SuNWwsLCSudWUutWVu9aWu9aXvNeYvdeavdicv9m4uLigwtqyvcWjw9upx96ryN6syd+wzOCyzeDKysq30ePOzs691OX+y2W/1eTB1+fV1dXG2unI3OrJ3OrL3eva2trP4O3R4e3W5O/X5e/n5+fe6vLg6/Ps7Ozm7/Xo8Pbp8ffq8ffw8PDt8/jx9vnz9/r2+fz6+vr5+/37+/v7/P38/f79/v7+/v7+//////9nhmbuAAABS0lEQVQ4y62TV1MCQRCEV18cFUwo5qyomDNmBbOYs2JcQ5kVcxZQwf7VsncCJ/IiXNfU5vqqd2aXGVUWM0JVCWDpEhwFm8B9ttCNp6buegrgYUkCdpuA5j5gRTc7rWuBJSo9Jj4ioE3ngDnPja42bCXYkXaOmdWwgPQDfNDuoojOPjIXXcX98DTJyRAnmAjGmBhwueVizuQ+iBdLJANRPXipqbQe0u0cdbqcI0FAKRhnfiDngT2FNORziNGyydrxxuFyXFj1JuwpgJIZ2afS4R8gCX9xvhzimCrG7FrDkBezkPjqDOVQcWXumyqBpKEkf1HwmUUnX4W078Wc0oGgeUIDJW9+1+xX/pIDVQZ6ct0Y0LsmrrBMa8/ehfZ/VzmFK4HrvcB2B8yG+YwG1B/t5FRF9A6Bpw3gzYYXc2rrI+7yo0veIwSq+5dV1jfh8J7pBbdFXgAAAABJRU5ErkJggg==);
 			height:15px;width:80px;}
 		</style>
-		<title>Resume - Shane R. Sofos</title>
+		<title>Resume|Shane R. Sofos</title>
 	</head>
 	<body>
 	<header>
@@ -57,7 +57,7 @@
 	<h2>Previous Experience</h2>
 			<ul>
 			<li><b>Google, Inc.</b>
-			<br><i>Feb. 2011 - Present (8 months)</i>
+			<br><i>Feb. 2011 - Present (9 months)</i>
 			<br><i>Unix Systems Administrator</i>
 				<ul>
 					<li> Converted the entire Slide Design Team to corporate Google hardware and software.</li>
