@@ -1,5 +1,5 @@
 # robots.txt
 
 User-agent: *
-Disallow: /resume.html
-Disallow: /resume.pdf
+Disallow: /srsofos-resume.html
+Disallow: /srsofos-resume.pdf
