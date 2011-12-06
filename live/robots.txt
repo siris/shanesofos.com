@@ -2,3 +2,4 @@
 
 User-agent: *
 Disallow: /resume.html
+Disallow: /resume.pdf
