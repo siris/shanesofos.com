@@ -14,7 +14,7 @@ a,a:hover,a:focus{color:rgb(255,255,255);}
 h1{font:24pt SKAcubic0175CERegular,sans-serif;}
 
 /*ELEMENT CLASSES-IDS*/
-#main{width:350px;min-height:80%;margin:0 auto -100px;padding-top:100px;}
+#main{width:350px;min-height:90%;margin:0 auto -100px;padding-top:100px;}
 .pid{border:2px dashed rgb(173,255,47);font:12pt SKAcubic0175CERegular,sans-serif;text-align:center;padding:15px;cursor:pointer;}
 .qr{min-height:215px;padding:20px;text-align:center;}
 .pid #pidata{display:none;padding:15px;}
