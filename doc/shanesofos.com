@@ -1,3 +1,6 @@
+# shanesofos.com nginx configuration
+#
+# HTTP config
 server {
   listen 0.0.0.0:80;
   server_name www.shanesofos.com www.shanesofos.info www.shanesofos.net shanesofos.com shanesofos.info shanesofos.net;
@@ -9,6 +12,7 @@ server {
   index index.html;
 }
 
+# HTTPS config
 server {
   listen 0.0.0.0:443;
   server_name www.shanesofos.com www.shanesofos.info www.shanesofos.net shanesofos.com shanesofos.info shanesofos.net;
