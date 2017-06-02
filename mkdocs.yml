@@ -1,0 +1,43 @@
+site_name: Shane Sofos
+site_author: ssofos@gmail.com
+site_description: Shane Sofos's Site
+copyright: 'Copyright &copy; 2017, Shane R. Sofos. All rights reserved.'
+docs_dir: mkdocs
+edit_uri: mkdocs
+extra:
+  palette:
+    primary: 'Light Green'
+    accent: 'Amber'
+  social:
+    - type: 'github'
+      link: 'https://github.com/siris'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/srsofos'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/pub/shane-sofos/4/b13/651'
+    - type: 'pinterest'
+      link: 'https://www.pinterest.com/shanesofos'
+    - type: 'twitter'
+      link: 'https://twitter.com/srsofos'
+    - type: 'google'
+      link: 'https://profiles.google.com/u/0/110572094171248093485'
+google_analytics:
+  - 'UA-27546797-1'
+  - 'auto'
+markdown_extensions:
+  - admonition
+  - codehilite
+  - meta
+pages:
+  - Home: index.md
+  - Resume:
+    - About: resume/README.md
+    - Objective: resume/objective.md
+    - Skill Set: resume/skillset.md
+    - Experience: resume/experience.md
+    - Education: resume/education.md
+    - Interests: resume/interests.md
+repo_name: siris/shanesofos.com
+repo_url: https://github.com/siris/shanesofos.com/tree/master
+site_favicon: 'img/favicon.ico'
+theme: material
