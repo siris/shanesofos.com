@@ -1,7 +1,7 @@
 server {
   listen 0.0.0.0:80;
   server_name www.shanesofos.com www.shanesofos.info www.shanesofos.net shanesofos.com shanesofos.info shanesofos.net;
-  root /usr/share/nginx/shanesofos.com/live/;
+  root /usr/share/nginx/shanesofos.com/site/;
   index index.html;
 
   access_log /var/log/nginx/shanesofos.com.access_log main;
@@ -11,7 +11,7 @@ server {
 server {
   listen 0.0.0.0:443;
   server_name www.shanesofos.com www.shanesofos.info www.shanesofos.net shanesofos.com shanesofos.info shanesofos.net;
-  root /usr/share/nginx/shanesofos.com/live/;
+  root /usr/share/nginx/shanesofos.com/site/;
   index index.html;
 
   access_log /var/log/nginx/shanesofos.com.ssl_access_log main;
