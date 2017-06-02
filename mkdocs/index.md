@@ -1,4 +1,3 @@
-path: tree/master
 source: whoami.rb
 
 Welcome
