@@ -15,8 +15,8 @@ class Identity
   end
 
   def whoami
-    puts "My name is #{@name} and " \
-         "I am an enthusiastic #{@professions.join(', ')}"
+    puts "Hello, my name is #{@name}! " \
+         "I am an enthusiastic #{@professions.join(', ')}."
   end
 end
 
@@ -27,7 +27,7 @@ person = Identity.new('Shane R. Sofos',
                        'GNU Herder',
                        'Midgardian',
                        'Westerosi',
-                       'Child of Ilúvatar'])
+                       'and Child of Ilúvatar'])
 person.whoami
 ```
 
