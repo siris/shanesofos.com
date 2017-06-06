@@ -20,10 +20,6 @@ class Resume
     @resume_template = template
   end
 
-  def return_binding
-    binding
-  end
-
   def build
     b = binding
     ERB.new(File.read('./' + @resume_template)).result b
