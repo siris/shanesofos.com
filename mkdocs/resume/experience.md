@@ -4,20 +4,18 @@ Experience
 Apple, Inc.
 -----------
 
-!!! summary "Date of Employment"
-    June 2016 - Present
+#### Date of Employment: June 2016 - Present
+#### Title: Site Reliability Engineer
 
-!!! tip "Title"
-    Site Reliability Engineer
+---
 
 Facebook, Inc.
 --------------
 
-!!! summary "Date of Employment"
-    February 2012 - March 2016 (4 years 2 months)
+#### Date of Employment: February 2012 - March 2016 (4 years 2 months)
+#### Title: System Engineer
 
-!!! tip "Title"
-    System Engineer
+---
 
 * 2+ years of experience working directly with deploying IPv6 in a large scale Linux environment.
 * 4+ years of experience as a founding member of the IT Chef team.
@@ -59,14 +57,15 @@ Facebook, Inc.
 * 2+ years of experience actively participating in Disaster Recovery drills on core infrastructure services t o test their resiliency and availability.
 * Participated in complete Infrastructure Destruction and Security Breach simulations.
 
+---
+
 Google, Inc.
 ------------
 
-!!! summary "Date of Employment"
-    September 2010 - January 2012 (1 year 5 months)
+#### Date of Employment: September 2010 - January 2012 (1 year 5 months)
+#### Title: Unix Systems Administrator
 
-!!! tip "Title"
-    Unix Systems Administrator
+---
 
 * Managed the engineering Ubuntu Linux development systems to include: BASH scripting, git code pushes, security package updates and network monitoring.
 * Converted the Slide Design Team to corporate Google hardware and software.
@@ -78,16 +77,15 @@ Google, Inc.
 * Assisted the Slide AU Systems Operations team with a major datacenter colocation migration and setup.
 * Supported multiple remote teams in China and Europe.
 
-
+---
 
 Slide, Inc.
 -----------
 
-!!! summary "Date of Employment"
-    July 2009 - August 2010 (1 year 2 months)
+#### Date of Employment: July 2009 - August 2010 (1 year 2 months)
+#### Title: Systems Operations Admin and Facilities Assistant
 
-!!! tip "Title"
-    Systems Operations Admin and Facilities Assistant
+---
 
 * Worked on the Systems Operations team with an emphasis on Linux systems administration.
 * Maintained, operated and repaired corporate Ubuntu Linux servers and services.
@@ -96,29 +94,26 @@ Slide, Inc.
 * Supported 100+ local employees and multiple overseas offices using mixed operating systems environments.
 * Worked with Slide Facilities to help maintain, organize and improve our three office floors.
 
+---
+
 Slide, Inc.
 -----------
 
-!!! summary "Date of Employment"
-    July 2007 - September 2007 (3 months)
-
-!!! tip "Title"
-    System Operations Intern
+#### Date of Employment: July 2007 - September 2007 (3 months)
+#### Title: System Operations Intern
 
 * Collaborated with Systems Operations team members to support all Slide employee desktop and laptop computer s.
 * Assisted in the physical hardware and software configuration maintenance of corporate Linux servers.
 * Collaborated with network engineering to fix and setup new corporate network infrastructure.
 * Implemented a new company wiki with TWiki to help improve employee communication, productivity and sharing of project critical information.
 
+---
 
 Cal Poly Pomona University Library
 ----------------------------------
 
-!!! summary "Date of Employment"
-    October 2005 - June 2007 (1 year 9 months)
-
-!!! tip "Title"
-    Student Systems Operations Admin
+#### Date of Employment: October 2005 - June 2007 (1 year 9 months)
+#### Title: Student Systems Operations Admin
 
 * Supported daily all library employees from six internal departments.
 * Effectively maintained and ensured the functional and operational integrity of all computer labs consisting of 100+ computers of mixed operating systems.
