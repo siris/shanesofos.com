@@ -6,7 +6,7 @@ require 'erb'
 class Resume
   def initialize(file, template)
     @components = {
-      title: "Shane Sofos's Resume\n==================",
+      title: "Shane Sofos's Resume\n==================\n---",
       objective: File.read('./mkdocs/resume/objective.md'),
       skillset: File.read('./mkdocs/resume/skillset.md'),
       experience: File.read('./mkdocs/resume/experience.md'),

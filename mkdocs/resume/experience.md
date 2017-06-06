@@ -39,7 +39,7 @@ Facebook, Inc.
     * Mastered the usage of FPM, a ruby meta-packaging tool, that helped build custom code based packages.
     * Worked closely with Security teams to coordinate, push and mitigate packages affected by major security vulnerabilities.
     * Ensured all and any package spec files or custom build scripts were version controlled within git repositories.
-* 2years of experience building, re-designing, re-building and operating multi-regional global Facebook IRC service.
+* 2 years of experience building, re-designing, re-building and operating multi-regional global Facebook IRC service.
     * Rebuilt and migrated the entire Facebook IRC Infra to the IT Infra stack, including different backend systems, load balancers, and networking.
     * Designed and implemented the re-designed IRC infrastructure entirely in and with Chef so that it was completely codified infrastructure.
     * Configured the IRC implementation to be a multi-faceted Internet facing service.

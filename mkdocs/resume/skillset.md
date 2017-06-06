@@ -2,13 +2,15 @@ Skill Set
 =========
 
 * 1+ years of experience and expertise in the Ansible automation framework
-* 1+ years of experience in developing and deployed Heroku style applications
+* 1+ years of experience in developing and deploying Heroku style applications
+* 1+ years of expereince in developing and deploying Nginx powered web applications
+* 1+ years of experience building, configuring and deploying Phabricator instances
 * 4+ years of experience and expertise in Chef configuration management
 * 5+ years of experience with the Ruby Programming Language
 * 5+ years in high demand fast development/operations environments
 * 5+ years of experience in building, developing and operating large scale global multi-regional infrastructure
 * 5+ years of experience and intimate familiarity in code review processes, principals and workflows
-* 5+ years of experience and expertise with distributed revision control systems like git
+* 6+ years of experience and expertise with distributed revision control systems like git
 * 8+ years of BASH scripting in production environments
 * 10+ years of GNU/Linux Systems Administration
 * 12+ years GNU/Linux OS Usage
