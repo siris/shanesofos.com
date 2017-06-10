@@ -27,7 +27,7 @@ Facebook, Inc.
     * Authored an original password randomnizer in pure Ruby and integrated it with Chef seamlessly to securely randomize all root user passwords.
     * Authored a specialized piece of Chef automation code that dynamically dual-stacked RHEL and Ubuntu node s with IPv6 network interfaces.
     * Authored all code to convert Chef cookbook based secrets to use encrypted data bags and migrated all Chef Linux nodes to support encrypted data bags.
-    * Designed, implemented and tested on the IT Chef stack a previously created Facebook specific Chef integration testing tool called taste-tester.
+    * Fully implemented a deployment of taste-tester, a Facebook specific Chef integration testing tool, on the IT Chef stack.
 * Self taught the Ruby Programming language both as a declarative DSL within Chef and as a general OOP higher language.
 * 4+ years of experience managing thousands of heterogeneous IT Linux systems (CentOS, RHEL, OEL and Ubuntu) with Chef automation.
 * 4+ years of hardening Chef managed Linux systems with things including: LDAP auth, DUO 2-factor auth, OpenSSH Match ACLs and automated sudo policies.
@@ -54,8 +54,8 @@ Facebook, Inc.
 * 4+ years of experience working in line with Technical Project Managers to push and deliver innovative new services.
 * 4+ years of experience working with internal and external auditors to ensure compliance of system configurations for financial based infrastructure.
 * 4+ years of experience rebuilding entire infrastructure stacks to migrate and upgrade them to different datacenters locations.
-* 2+ years of experience actively participating in Disaster Recovery drills on core infrastructure services t o test their resiliency and availability.
-* Participated in complete Infrastructure Destruction and Security Breach simulations.
+* 2+ years of experience actively participating in Disaster Recovery drills on core infrastructure services to test their resiliency and availability.
+* Participated in complete Infrastructure Destruction and Security Breach simulations. Also, know as Red Team exercises.
 
 ---
 
@@ -69,7 +69,7 @@ Google, Inc.
 
 * Managed the engineering Ubuntu Linux development systems to include: BASH scripting, git code pushes, security package updates and network monitoring.
 * Converted the Slide Design Team to corporate Google hardware and software.
-* Implemented a multiplatform SSHFS software deployment for Slide Teams to securely access remote file system s.
+* Implemented a multiplatform SSHFS software deployment for Slide Teams to securely access remote file systems.
 * Converted all Slide Team members to use SSH key based authentication when accessing a bastion host.
 * Created a scripted account creation automation and management process for newly hired, exited and existing Slide AU employees.
 * Improved Slide AU account setup with multiple BASH scripts for LDAP auditing, developmental playground initialization and conversion, file encryption and Slide AU specific OS configurations installations.
@@ -102,7 +102,7 @@ Slide, Inc.
 #### Date of Employment: July 2007 - September 2007 (3 months)
 #### Title: System Operations Intern
 
-* Collaborated with Systems Operations team members to support all Slide employee desktop and laptop computer s.
+* Collaborated with Systems Operations team members to support all Slide employee desktop and laptop computers.
 * Assisted in the physical hardware and software configuration maintenance of corporate Linux servers.
 * Collaborated with network engineering to fix and setup new corporate network infrastructure.
 * Implemented a new company wiki with TWiki to help improve employee communication, productivity and sharing of project critical information.
