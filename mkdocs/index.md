@@ -15,7 +15,7 @@ class Identity
   end
 
   def whoami
-    puts "Hello, my name is #{@name}! " \
+    puts "Hello, my name is #{@name}! " +
          "I am an enthusiastic #{@professions.join(', ')}."
   end
 end
