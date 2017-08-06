@@ -5,6 +5,8 @@ Welcome
 
 Hi there and welcome to my personal site!
 
+My name is Shane R. Sofos. I am an enthusiastic Site Reliability Engineer, Systems Engineer, Penguin Wrangler, GNU Herder, Midgardian, Westerosi, and Child of Ilúvatar.
+
 ```ruby
 #!/usr/bin/env ruby
 
