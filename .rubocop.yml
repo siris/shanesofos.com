@@ -1,3 +1,8 @@
+#################### Layout #############################
+
+Layout/IndentationWidth:
+  Width: 2
+
 #################### Lint ###############################
 
 Lint/DeprecatedClassMethods:
@@ -51,9 +56,6 @@ Style/GuardClause:
 
 Style/IfUnlessModifier:
   Enabled: false
-
-Style/IndentationWidth:
-  Width: 2
 
 Style/LineEndConcatenation:
   Enabled: false

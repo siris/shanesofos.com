@@ -5,9 +5,6 @@ copyright: 'Copyright &copy; 2017, Shane R. Sofos. All rights reserved.'
 docs_dir: mkdocs
 edit_uri: mkdocs
 extra:
-  palette:
-    primary: 'Light Green'
-    accent: 'Amber'
   social:
     - type: 'github'
       link: 'https://github.com/siris'
@@ -37,7 +34,13 @@ pages:
     - Experience: resume/experience.md
     - Education: resume/education.md
     - Interests: resume/interests.md
+plugins:
+    - search
 repo_name: siris/shanesofos.com
 repo_url: https://github.com/siris/shanesofos.com/tree/master
-site_favicon: 'img/favicon.ico'
-theme: material
+theme:
+  name: 'material'
+  palette:
+    primary: 'Light Green'
+    accent: 'Amber'
+  favicon: img/favicon.ico

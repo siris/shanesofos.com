@@ -5,7 +5,7 @@ Welcome
 
 Hi there and welcome to my personal site!
 
-My name is Shane R. Sofos. I am an enthusiastic Site Reliability Engineer, Systems Engineer, Penguin Wrangler, GNU Herder, Midgardian, Westerosi, and Child of Ilúvatar.
+My name is Shane R. Sofos. I am an enthusiastic Site Reliability Engineer, Systems Engineer, Penguin Wrangler, Rubyist, GNU Herder, Midgardian, Westerosi, and Child of Ilúvatar.
 
 ```ruby
 #!/usr/bin/env ruby
@@ -17,7 +17,7 @@ class Identity
   end
 
   def whoami
-    puts "Hello, my name is #{@name}! " +
+    puts "My name is #{@name}. " +
          "I am an enthusiastic #{@professions.join(', ')}."
   end
 end
@@ -26,6 +26,7 @@ person = Identity.new('Shane R. Sofos',
                       ['Site Reliability Engineer',
                        'Systems Engineer',
                        'Penguin Wrangler',
+                       'Rubyist',
                        'GNU Herder',
                        'Midgardian',
                        'Westerosi',
