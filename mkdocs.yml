@@ -41,6 +41,6 @@ repo_url: https://github.com/siris/shanesofos.com/tree/master
 theme:
   name: 'material'
   palette:
-    primary: 'Light Green'
-    accent: 'Amber'
+    primary: 'Teal'
+    accent: 'Deep Orange'
   favicon: img/favicon.ico
