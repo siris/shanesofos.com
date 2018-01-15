@@ -1,5 +1,11 @@
-#################### Layout #############################
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'spec/fixtures/**/*'
+    - 'tmp/**/*'
+  TargetRubyVersion: 2.2
 
+#################### Layout #############################
 Layout/IndentationWidth:
   Width: 2
 
@@ -8,7 +14,7 @@ Layout/IndentationWidth:
 Lint/DeprecatedClassMethods:
   Enabled: false
 
-#################### Metrics ###############################
+#################### Metrics ############################
 
 Metrics/AbcSize:
   Enabled: false
@@ -37,6 +43,11 @@ Metrics/ModuleLength:
 Metrics/PerceivedComplexity:
   Enabled: false
 
+#################### Naming ##########################
+
+Naming/FileName:
+  Enabled: false
+
 #################### Style ###########################
 
 Style/BracesAroundHashParameters:
@@ -45,11 +56,17 @@ Style/BracesAroundHashParameters:
 Style/CommentAnnotation:
   Enabled: false
 
+Style/CommandLiteral:
+  EnforcedStyle: percent_x
+
+Style/EmptyLiteral:
+  Enabled: false
+
 Style/Encoding:
   Enabled: false
 
-Style/FileName:
-  Enabled: false
+Style/FormatStringToken:
+  EnforcedStyle: unannotated
 
 Style/GuardClause:
   Enabled: false

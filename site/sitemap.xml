@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-12-15</lastmod>
+     <lastmod>2018-01-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,38 +12,48 @@
     
         
     <url>
+     <loc>/projects/bouch/</loc>
+     <lastmod>2018-01-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
      <loc>/resume/README/</loc>
-     <lastmod>2017-12-15</lastmod>
+     <lastmod>2018-01-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/resume/objective/</loc>
-     <lastmod>2017-12-15</lastmod>
+     <lastmod>2018-01-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/resume/skillset/</loc>
-     <lastmod>2017-12-15</lastmod>
+     <lastmod>2018-01-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/resume/experience/</loc>
-     <lastmod>2017-12-15</lastmod>
+     <lastmod>2018-01-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/resume/education/</loc>
-     <lastmod>2017-12-15</lastmod>
+     <lastmod>2018-01-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/resume/interests/</loc>
-     <lastmod>2017-12-15</lastmod>
+     <lastmod>2018-01-15</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

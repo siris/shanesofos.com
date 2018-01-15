@@ -21,6 +21,36 @@
             "title": "Contact"
         }, 
         {
+            "location": "/projects/bouch/", 
+            "text": "Bouch\n\n\nAbout\n\n\nBouch is the budget pouch. A simple tool written in Ruby to calculate and project your annual personal budget based on fiscal quarter expenditures, income, assets, and debts.\n\n\nHistory\n\n\nBouch was originally written to help forecast, manage, and create my 2018 personal budget.\n\n\nAdditionally, I wanted a simple and fast tool that I could use to discover exactly how much my household was going to spend in the coming year, where we could cut unnecessary expenses, establish some basic monetary goals, and gain perspective on our overall financial health.\n\n\nAlso, it was an exploration in learning how to create a legitimate \nRuby Gem Package\n using \nBundler\n, \nRake\n, \nSemaphore CI\n, and understanding the basics of \nbehavior-driven development (BDD)\n with \nRSpec\n.\n\n\nName\n\n\nBouch is a etymological \nPortmanteau\n of the word \nbudget\n and \npouch\n. The \nMiddle English etymology\n of the word budget comes from the words \nbogett\n, \nbouget\n, \nbowgette\n, with mean \n\"leather pouch\"\n\n\nSource Code\n\n\n\n\nBouch GitHub Repository", 
+            "title": "Bouch"
+        }, 
+        {
+            "location": "/projects/bouch/#bouch", 
+            "text": "", 
+            "title": "Bouch"
+        }, 
+        {
+            "location": "/projects/bouch/#about", 
+            "text": "Bouch is the budget pouch. A simple tool written in Ruby to calculate and project your annual personal budget based on fiscal quarter expenditures, income, assets, and debts.", 
+            "title": "About"
+        }, 
+        {
+            "location": "/projects/bouch/#history", 
+            "text": "Bouch was originally written to help forecast, manage, and create my 2018 personal budget.  Additionally, I wanted a simple and fast tool that I could use to discover exactly how much my household was going to spend in the coming year, where we could cut unnecessary expenses, establish some basic monetary goals, and gain perspective on our overall financial health.  Also, it was an exploration in learning how to create a legitimate  Ruby Gem Package  using  Bundler ,  Rake ,  Semaphore CI , and understanding the basics of  behavior-driven development (BDD)  with  RSpec .", 
+            "title": "History"
+        }, 
+        {
+            "location": "/projects/bouch/#name", 
+            "text": "Bouch is a etymological  Portmanteau  of the word  budget  and  pouch . The  Middle English etymology  of the word budget comes from the words  bogett ,  bouget ,  bowgette , with mean  \"leather pouch\"", 
+            "title": "Name"
+        }, 
+        {
+            "location": "/projects/bouch/#source-code", 
+            "text": "Bouch GitHub Repository", 
+            "title": "Source Code"
+        }, 
+        {
             "location": "/resume/README/", 
             "text": "Resume\n\n\nPlease browse the different components of my resume:\n\n\n\n\n\n\n\n\nSection\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nObjective\n\n\nA work philosophy and set of principals\n\n\n\n\n\n\nSkill Set\n\n\nA concise list of different abilities\n\n\n\n\n\n\nExperience\n\n\nA chronological list of career experience\n\n\n\n\n\n\nEducation\n\n\nA chronological list of academic achievements\n\n\n\n\n\n\nInterests\n\n\nA myriad of personal hobbies, avocations and leisurely distractions", 
             "title": "About"

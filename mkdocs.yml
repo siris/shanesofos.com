@@ -27,6 +27,8 @@ markdown_extensions:
   - meta
 pages:
   - Home: index.md
+  - Projects:
+    - Bouch: projects/bouch.md
   - Resume:
     - About: resume/README.md
     - Objective: resume/objective.md
