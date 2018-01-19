@@ -1,0 +1,15 @@
+---
+- name: link shanesofos nginx conf
+  file:
+    src: /etc/nginx/sites-available/shanesofos.com
+    dest: /etc/nginx/sites-enabled/shanesofos.com
+    owner: root
+    group: root
+    state: link
+
+- name: restart nginx
+  service:
+    name: nginx
+    state: restarted
+    enabled: yes
+...

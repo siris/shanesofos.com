@@ -1,3 +1,4 @@
+# Modified by Ansible for {{ inventory_hostname }}
 user nginx nginx;
 
 worker_processes 12;
@@ -39,6 +40,10 @@ http {
   gzip on;
   gzip_vary on;
   gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript application/javascript text/x-js image/x-icon image/bmp;
+
+  add_header X-Frame-Options SAMEORIGIN;
+  add_header X-Content-Type-Options nosniff;
+  add_header X-XSS-Protection "1; mode=block";
 
   include /etc/nginx/sites-enabled/*;
 }

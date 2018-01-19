@@ -1,0 +1,13 @@
+---
+- name: Create portage configuration files
+  template:
+    src: "{{ 'templates/' ~ item }}"
+    dest: "{{ '/etc/portage/' ~ item.rstrip('.j2') }}"
+    owner: root
+    group: root
+    mode: 0644
+  with_items:
+    - make.conf.j2
+    - package.unmask.j2
+    - package.use.j2
+...

@@ -1,0 +1,13 @@
+---
+- import_tasks: crons.yml
+  tags: [inithost, inithost-crons]
+
+- import_tasks: packages.yml
+  tags: [inithost, inithost-packages]
+
+- import_tasks: portage.yml
+  tags: [inithost, inithost-portage]
+
+- import_tasks: nginx.yml
+  tags: [inithost, inithost-nginx]
+...

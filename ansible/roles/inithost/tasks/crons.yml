@@ -1,0 +1,19 @@
+---
+- name: Create shanesofos.com cronjob
+  cron:
+    name: "Auto git pull shanesofos.com"
+    minute: "*/15"
+    user: root
+    job: "cd /usr/share/nginx/shanesofos.com/ && /usr/bin/git pull"
+    state: present
+    cron_file: crons
+
+- name: Create eix-update cronjob
+  cron:
+    name: "Update app-portage/eix database"
+    minute: "*/60"
+    user: root
+    job: "/usr/bin/eix-update"
+    state: present
+    cron_file: crons
+...

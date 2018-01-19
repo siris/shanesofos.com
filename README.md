@@ -1,17 +1,18 @@
 About
 =====
 
-This is the personal portfolio website for Shane R. Sofos
+This is the personal portfolio website for Shane R. Sofos.
 
-The source code includes static web content, mkdocs configurations, and web server configurations to run [shanesofos.com](https://shanesofos.com)
+The source code includes auto-generated static web content, static site generator configurations, infrastructure automation and configurations, and tools to create [shanesofos.com](https://shanesofos.com)
 
 Platform
 ========
 
-* OS: [Funtoo Container](http://www.funtoo.org/Funtoo_Containers)
+* OS Platform: [Funtoo Container](https://www.funtoo.org/Funtoo_Containers)
+* Infrastructure Automation: [Ansible](https://docs.ansible.com/)
 * Web Server: [Nginx](https://nginx.org/)
-* Website Generator: [MkDocs](http://www.mkdocs.org/)
-* Website Theme: [Material for MkDocs](http://squidfunk.github.io/mkdocs-material/)
+* Static Site Generator: [MkDocs](http://www.mkdocs.org/)
+* Site Theme: [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
 Domains
 =======
