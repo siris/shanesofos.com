@@ -5,8 +5,8 @@ This is the personal portfolio website for Shane R. Sofos.
 
 The source code includes auto-generated static web content, static site generator configurations, infrastructure automation and configurations, and tools to create [shanesofos.com](https://shanesofos.com)
 
-Platform
-========
+Components
+==========
 
 * OS Platform: [Funtoo Container](https://www.funtoo.org/Funtoo_Containers)
 * Infrastructure Automation: [Ansible](https://docs.ansible.com/)
