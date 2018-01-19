@@ -12,6 +12,7 @@ inithost_package_atoms:
   - games-misc/cowsay
   - net-dns/bind-tools
   - www-servers/nginx
+  - sys-fs/dfc
   - sys-process/htop
   - sys-process/vixie-cron
 ...
