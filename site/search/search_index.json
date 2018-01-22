@@ -22,7 +22,7 @@
         }, 
         {
             "location": "/projects/bouch/", 
-            "text": "Bouch\n\n\nAbout\n\n\nBouch is the budget pouch. A simple tool written in Ruby to calculate and project your annual personal budget based on fiscal quarter expenditures, income, assets, and debts.\n\n\nHistory\n\n\nBouch was originally written to help forecast, manage, and create my 2018 personal budget.\n\n\nAdditionally, I wanted a simple and fast tool that I could use to discover exactly how much my household was going to spend in the coming year, where we could cut unnecessary expenses, establish some basic monetary goals, and gain perspective on our overall financial health.\n\n\nAlso, it was an exploration in learning how to create a legitimate \nRuby Gem Package\n using \nBundler\n, \nRake\n, \nSemaphore CI\n, and understanding the basics of \nbehavior-driven development (BDD)\n with \nRSpec\n.\n\n\nName\n\n\nBouch is a etymological \nPortmanteau\n of the word \nbudget\n and \npouch\n. The \nMiddle English etymology\n of the word budget comes from the words \nbogett\n, \nbouget\n, \nbowgette\n, with mean \n\"leather pouch\"\n\n\nSource Code\n\n\n\n\nBouch GitHub Repository", 
+            "text": "Bouch\n\n\nAbout\n\n\nBouch is the budget pouch. A simple tool written in Ruby to calculate and project your annual personal budget based on fiscal quarter expenditures, income, assets, and debts.\n\n\nHistory\n\n\nBouch was originally written to help forecast, manage, and create my 2018 personal budget.\n\n\nAdditionally, I wanted a simple and fast tool that I could use to discover exactly how much my household was going to spend in the coming year, where we could cut unnecessary expenses, establish some basic monetary goals, and gain perspective on our overall financial health.\n\n\nAlso, it was an exploration in learning how to create a legitimate \nRuby Gem Package\n using \nBundler\n, \nRake\n, \nSemaphore CI\n, and understanding the basics of \nbehavior-driven development (BDD)\n with \nRSpec\n.\n\n\nName\n\n\nBouch is a etymological \nPortmanteau\n of the words \nbudget\n and \npouch\n. The \nMiddle English etymology\n of budget comes from the words \nbogett\n, \nbouget\n, \nbowgette\n, which mean \n\"leather pouch\"\n\n\nSource Code\n\n\n\n\nBouch GitHub Repository", 
             "title": "Bouch"
         }, 
         {
@@ -42,7 +42,7 @@
         }, 
         {
             "location": "/projects/bouch/#name", 
-            "text": "Bouch is a etymological  Portmanteau  of the word  budget  and  pouch . The  Middle English etymology  of the word budget comes from the words  bogett ,  bouget ,  bowgette , with mean  \"leather pouch\"", 
+            "text": "Bouch is a etymological  Portmanteau  of the words  budget  and  pouch . The  Middle English etymology  of budget comes from the words  bogett ,  bouget ,  bowgette , which mean  \"leather pouch\"", 
             "title": "Name"
         }, 
         {

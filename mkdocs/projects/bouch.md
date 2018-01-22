@@ -18,7 +18,7 @@ Also, it was an exploration in learning how to create a legitimate [Ruby Gem Pac
 Name
 ----
 
-Bouch is a etymological [Portmanteau](https://en.wikipedia.org/wiki/Portmanteau) of the word **budget** and **pouch**. The [Middle English etymology](https://en.wiktionary.org/wiki/budget) of the word budget comes from the words *bogett*, *bouget*, *bowgette*, with mean **"leather pouch"**
+Bouch is a etymological [Portmanteau](https://en.wikipedia.org/wiki/Portmanteau) of the words **budget** and **pouch**. The [Middle English etymology](https://en.wiktionary.org/wiki/budget) of budget comes from the words *bogett*, *bouget*, *bowgette*, which mean **"leather pouch"**
 
 Source Code
 -----------
