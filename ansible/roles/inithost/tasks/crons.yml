@@ -1,4 +1,19 @@
 ---
+- name: Create cronjob directory
+  file:
+    path: "/etc/cron.d"
+    state: directory
+    owner: root
+    group: root
+
+- name: Create crons cronjob file
+  file:
+    path: "/etc/cron.d/crons"
+    state: file
+    owner: root
+    group: root
+    mode: 0644
+
 - name: Create shanesofos.com cronjob
   cron:
     name: "Auto git pull shanesofos.com"

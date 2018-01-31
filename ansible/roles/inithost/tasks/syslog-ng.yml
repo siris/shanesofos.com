@@ -1,0 +1,10 @@
+---
+- name: Create syslog-ng.conf
+  template:
+    src: templates/syslog-ng.conf.j2
+    dest: /etc/syslog-ng/syslog-ng.conf
+    owner: root
+    group: root
+    mode: 0644
+  notify: restart syslog-ng
+...

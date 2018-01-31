@@ -2,17 +2,17 @@
 inithost_package_atoms:
   - app-admin/logrotate
   - app-admin/syslog-ng
-  - app-editors/vim
-  - app-editors/vim-core
   - app-portage/eix
   - app-portage/gentoolkit
+  - sys-fs/dfc
+  - sys-process/htop
+  - sys-process/vixie-cron
+  - app-editors/vim
+  - app-editors/vim-core
   - app-vim/gentoo-syntax
   - app-vim/nginx-syntax
   - dev-vcs/git
   - games-misc/cowsay
   - net-dns/bind-tools
   - www-servers/nginx
-  - sys-fs/dfc
-  - sys-process/htop
-  - sys-process/vixie-cron
 ...

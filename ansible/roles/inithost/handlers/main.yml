@@ -12,4 +12,10 @@
     name: nginx
     state: restarted
     enabled: yes
+
+- name: restart syslog-ng
+  service:
+    name: syslog-ng
+    state: restarted
+    enabled: yes
 ...

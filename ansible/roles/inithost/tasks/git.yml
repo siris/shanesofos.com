@@ -1,0 +1,8 @@
+---
+- name: Clone the shanesofos.com GitHub repository
+  git:
+    repo: 'https://github.com/siris/shanesofos.com.git'
+    dest: /usr/share/nginx/shanesofos.com
+    clone: yes
+    update: no
+...

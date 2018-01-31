@@ -1,0 +1,10 @@
+---
+- name: Start and enable system services
+  service:
+    name: "{{ item }}"
+    state: started
+    enabled: yes
+  with_items:
+    - syslog-ng
+    - vixie-cron
+...

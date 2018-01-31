@@ -2,11 +2,20 @@
 - import_tasks: crons.yml
   tags: [inithost, inithost-crons]
 
+- import_tasks: portage.yml
+  tags: [inithost, inithost-portage]
+
 - import_tasks: packages.yml
   tags: [inithost, inithost-packages]
 
-- import_tasks: portage.yml
-  tags: [inithost, inithost-portage]
+- import_tasks: git.yml
+  tags: [inithost, inithost-git]
+
+- import_tasks: syslog-ng.yml
+  tags: [inithost, inithost-syslog-ng]
+
+- import_tasks: services.yml
+  tags: [inithost, inithost-services]
 
 - import_tasks: nginx.yml
   tags: [inithost, inithost-nginx]
