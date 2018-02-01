@@ -8,6 +8,7 @@
     mode: 0644
   with_items:
     - make.conf.j2
+    - package.keywords.j2
     - package.unmask.j2
     - package.use.j2
 ...

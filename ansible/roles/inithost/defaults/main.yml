@@ -14,5 +14,6 @@ inithost_package_atoms:
   - dev-vcs/git
   - games-misc/cowsay
   - net-dns/bind-tools
+  - app-misc/tmux
   - www-servers/nginx
 ...
