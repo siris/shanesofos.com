@@ -1,7 +1,10 @@
 # Modified by Ansible for {{ inventory_hostname }}
-ACCEPT_KEYWORDS=~amd64
-MAKEOPTS=-j5
-DISTDIR=/var/src/distfiles
+ACCEPT_KEYWORDS="~amd64"
+CHOST="x86_64-pc-linux-gnu"
+CFLAGS="-march=westmere -O2 -pipe"
+CXXFLAGS="${CFLAGS}"
+MAKEOPTS="-j6"
+DISTDIR="/var/src/distfiles"
 EMERGE_DEFAULT_OPTS="--quiet-build y"
 FEATURES="parallel-fetch userfetch parallel-install"
 PYTHON_TARGETS="python2_7 python3_4"
