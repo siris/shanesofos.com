@@ -1,4 +1,7 @@
 ---
+- import_tasks: bash.yml
+  tags: [inithost, inithost-bash]
+
 - import_tasks: crons.yml
   tags: [inithost, inithost-crons]
 

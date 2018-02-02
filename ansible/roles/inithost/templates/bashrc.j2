@@ -1,0 +1,39 @@
+# Modified by Ansible for {{ inventory_hostname }}
+# Put your fun stuff here!
+#
+# Aliases
+#
+# General
+alias dsk='df -ahTP'
+alias dski='df -ahTPi'
+alias e='exit'
+alias eu='eix -uc'
+alias fxs='declare -f'
+alias ls='ls --color=auto'
+alias ll='ls -al'
+alias la='ls -A'
+alias l='ls -CF'
+alias l1='ls -1'
+alias rel='source $HOME/.bashrc'
+
+# Simple alphanumeric password generator
+genalpha(){
+  local l=$1
+  [ "$l" == "" ] && l=32
+  tr -dc 'A-Za-z0-9' < /dev/urandom | head -c ${l} | xargs
+}
+
+# Simple random password generator
+genrandom(){
+  local l=$1
+  [ "$l" == "" ] && l=32
+  LC_ALL=C tr -dc 'A-Za-z0-9_!@#$%^&*(),.?;:[]{}|=+-' < /dev/urandom | head -c ${l} | xargs
+}
+
+# Exports
+#
+# General
+export EDITOR="vim"
+
+# Prompt
+PROMPT_COMMAND='PS1="\[\e[31;1m\]\$\[\e[36;1m\]\u@\[\e[32;1m\]\h\[\e[31;1m\][\s \V]\[\e[33;1m\][\t]\[\e[34;1m\][\W] \[\e[31;1m\]<\#>\[\e[0m\] "'

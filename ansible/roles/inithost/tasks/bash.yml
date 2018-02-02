@@ -1,0 +1,12 @@
+---
+- name: Create root user BASH configuration files
+  template:
+    src: "{{ 'templates/' ~ item }}"
+    dest: "{{ '/root/.' ~ item.rstrip('.j2') }}"
+    owner: root
+    group: root
+    mode: 0644
+  with_items:
+    - bashrc.j2
+    - bash_profile.j2
+...
