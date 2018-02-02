@@ -45,4 +45,6 @@ theme:
   palette:
     primary: 'Teal'
     accent: 'Deep Orange'
+  feature:
+    tabs: true
   favicon: img/favicon.ico

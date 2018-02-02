@@ -1,17 +1,6 @@
 #!/usr/bin/env ruby
 
-# Make some identities
-class Identity
-  def initialize(give_name, professions)
-    @name = give_name
-    @professions = professions
-  end
-
-  def whoami
-    puts "My name is #{@name}. " +
-         "I am an enthusiastic #{@professions.join(', ')}."
-  end
-end
+require_relative 'lib/identity'
 
 person = Identity.new('Shane R. Sofos',
                       ['Site Reliability Engineer',

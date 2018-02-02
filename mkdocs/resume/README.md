@@ -1,7 +1,7 @@
 Resume
 ======
 
-Please browse the different components of my resume:
+Here are all of the different components of my resume:
 
 Section                       | Description
 ----------------------------- | -----------
