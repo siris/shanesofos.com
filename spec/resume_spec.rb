@@ -61,4 +61,24 @@ describe Resume do
       expect(@resume.resume_template).to be_kind_of(String)
     end
   end
+
+  describe '.build' do
+    it 'generates a Resume Markdown String using an ERB template' do
+      expect(@resume.build).to be_kind_of(String)
+    end
+  end
+
+  describe '.create' do
+    it 'builds and writes a new Resume Markdown file by rendering an ERB template' do
+      expect { @resume.create }.to output.to_stdout
+      expect(File.exist?(@resume.resume_file)).to be_truthy
+    end
+  end
+
+  describe '.info' do
+    it 'outputs information about the Resume file path and File object' do
+      expect { @resume.info }.to output.to_stdout
+      File.delete(@resume.resume_file)
+    end
+  end
 end
