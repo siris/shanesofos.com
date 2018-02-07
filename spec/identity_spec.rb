@@ -6,16 +6,16 @@ describe Identity do
   end
 
   describe '#name' do
-    it 'returns a string equaling a persons name' do
-      expect(@person.name).to be_kind_of(String)
+    it 'returns a persons name that is a String' do
       expect(@person.name).to eq('Tom Bombadil')
+      expect(@person.name).to be_kind_of(String)
     end
   end
 
   describe '#professions' do
-    it 'returns an array equaling a persons professions' do
-      expect(@person.professions).to be_kind_of(Array)
+    it 'returns a list of a persons professions that is an Array' do
       expect(@person.professions).to eq(['Merry Fellow', 'Master of wood, water and hill'])
+      expect(@person.professions).to be_kind_of(Array)
     end
   end
 
