@@ -18,6 +18,7 @@ Components
 * Testing Framework: [RSpec](http://rspec.info/)
 * Other Tools:
   * [Ruby Programming Language](https://www.ruby-lang.org/)
+  * [Bundler](https://bundler.io/)
   * [Rake](https://ruby.github.io/rake/)
   * [RuboCop](http://batsov.com/rubocop/)
 
