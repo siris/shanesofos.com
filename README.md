@@ -13,16 +13,20 @@ Components
 * Web Hosting Platform: [Funtoo Linux Container](https://www.funtoo.org/Funtoo_Containers)
 * Web Server: [Nginx](https://nginx.org/)
 * Infrastructure Automation: [Ansible](https://docs.ansible.com/)
-* Resume Generator: Custom Ruby Script and [NPM markdown-pdf](https://www.npmjs.com/package/markdown-pdf)
+* Resume Generator:
+    * Custom Ruby Resume Markdown Generator Library
+    * [Erubis Template Engine](http://www.kuwata-lab.com/erubis/)
+    * [Gimli](https://github.com/walle/gimli)
+    * Custom Ruby Wrapper Script
 * Resume Format: [CommonMark Markdown](http://commonmark.org/)
 * Static Site Generator: [MkDocs](http://www.mkdocs.org/)
 * Site Theme: [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 * Testing Framework: [RSpec](http://rspec.info/)
 * Other Tools:
-  * [Ruby Programming Language](https://www.ruby-lang.org/)
-  * [Bundler](https://bundler.io/)
-  * [Rake](https://ruby.github.io/rake/)
-  * [RuboCop](http://batsov.com/rubocop/)
+    * [Ruby Programming Language](https://www.ruby-lang.org/)
+    * [Bundler](https://bundler.io/)
+    * [Rake](https://ruby.github.io/rake/)
+    * [RuboCop](http://batsov.com/rubocop/)
 
 Domains
 =======
