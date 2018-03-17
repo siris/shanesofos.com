@@ -5,6 +5,9 @@ Hi there and welcome to my personal site!
 
 My name is Shane R. Sofos. I am an enthusiastic Site Reliability Engineer, Systems Engineer, Penguin Wrangler, Rubyist, GNU Herder, Midgardian, Westerosi, and Child of Ilúvatar.
 
+Code Sample
+-----------
+
 ```ruby
 # Make some identities
 class Identity
