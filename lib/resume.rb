@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'erb'
 
 # Create a MarkDown resume from MarkDown parts using an ERB template

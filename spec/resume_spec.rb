@@ -1,8 +1,14 @@
+# frozen_string_literal: true
+
 require_relative '../lib/resume'
 
 describe Resume do
   before :all do
     @resume = Resume.new('resume_ssofos.md', 'resume_ssofos.erb')
+  end
+
+  it 'is an Resume Object' do
+    expect(@resume).to be_kind_of(Resume)
   end
 
   describe '#components' do

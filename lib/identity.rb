@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Make some identities
 class Identity
   attr_accessor :name, :professions

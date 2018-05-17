@@ -1,8 +1,14 @@
+# frozen_string_literal: true
+
 require_relative '../lib/identity'
 
 describe Identity do
   before :all do
     @person = Identity.new('Tom Bombadil', ['Merry Fellow', 'Master of wood, water and hill'])
+  end
+
+  it 'is an Identity Object' do
+    expect(@person).to be_kind_of(Identity)
   end
 
   describe '#name' do
