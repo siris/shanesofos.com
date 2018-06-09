@@ -1,4 +1,4 @@
-[![Build Status](https://semaphoreci.com/api/v1/siris/shanesofos-com/branches/master/badge.svg)](https://semaphoreci.com/siris/shanesofos-com)
+[![GitLab Migration](https://img.shields.io/badge/GitLab%20Migration-Completed-brightgreen.svg)](https://gitlab.com/ssofos/shanesofos.com)
 
 About
 =====
